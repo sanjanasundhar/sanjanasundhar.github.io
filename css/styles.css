@@ -124,6 +124,7 @@ p{
 
     }
 
+
     .homeContent{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -138,6 +139,10 @@ p{
     }
     .welcome{
         grid-row :2/3;
+    }
+
+    .activitiesLayout{
+        grid-template-rows: 600px auto auto 150px;
     }
 
   
@@ -178,6 +183,8 @@ p{
         grid-column: 2/3;
 
     }
+
+   
 
 
 
