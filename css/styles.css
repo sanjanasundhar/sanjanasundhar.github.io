@@ -125,7 +125,7 @@ p{
 @media only screen and (min-width: 768px) {
  /* this is where you would 'create' your desktop view */
     .homeLayout {
-        grid-template-rows: 600px auto 150px auto auto;
+        grid-template-rows: 400px auto 150px auto auto;
 
     }
 
@@ -146,7 +146,9 @@ p{
         grid-row :2/3;
     }
 
- 
+    img{
+        color: white;
+    }
 
   
 
@@ -154,7 +156,7 @@ p{
         display: grid;
         grid-template-columns:  1fr 1fr;
         grid-template-rows: auto auto auto auto;
-    }
+    } 
 
     .riseNY{
         grid-row: 1/2;
