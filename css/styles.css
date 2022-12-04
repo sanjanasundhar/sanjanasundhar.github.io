@@ -11,7 +11,7 @@ body {
 
 #headerPic {
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 nav {
@@ -93,6 +93,11 @@ footer {
 
 }
 
+.nightLifeLayout{
+    display: grid;
+    grid-template-rows: 400px auto;
+}
+
 .nightLifePicture{
     width: 60%;
     height: 50%;
@@ -141,9 +146,7 @@ p{
         grid-row :2/3;
     }
 
-    .activitiesLayout{
-        grid-template-rows: 600px auto auto 150px;
-    }
+ 
 
   
 
