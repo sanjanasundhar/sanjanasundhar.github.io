@@ -158,6 +158,8 @@ p{
         grid-column: 2/3;
     }
 
+
+
     .nightLifeContent{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -171,11 +173,13 @@ p{
 
     }
 
-    .lightshow{
+    .lightShow{
         grid-row: 1/2;
         grid-column: 2/3;
 
     }
+
+
 
     /* .holidayBar{
         grid-row: 1/2;
