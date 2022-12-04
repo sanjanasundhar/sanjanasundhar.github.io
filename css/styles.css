@@ -1,0 +1,201 @@
+.homeLayout{
+    display: grid;
+    grid-template-rows: 400px auto 200px auto auto;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+}
+
+#headerPic {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.welcome{
+    text-align: center;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a :focus{
+outline: none;
+  box-shadow: 0 0 0 3px yellow;
+}
+
+#welcome {
+    width: 100%;
+    height: 100%;
+}
+
+
+.homeContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.introduction {
+    text-align: center;
+    grid-column: 2/3;
+    color: white;
+
+}
+
+.homeImage {
+    grid-column: 1/2;
+    background-image: url("/img/homePic.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.activitiesLayout{
+    display: grid;
+    grid-template-rows: 400px auto ;
+
+
+}
+
+.activitiesPicture{
+    width: 60%;
+    height: 40%;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.nightLifePicture{
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    margin: 10px;
+
+}
+h1{
+    color:white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+p{
+    color:white;
+}
+@media only screen and (min-width: 768px) {
+ /* this is where you would 'create' your desktop view */
+    .homeLayout {
+        grid-template-rows: 600px auto 150px auto auto;
+
+    }
+
+    .homeContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .homeImage{
+        grid-row: 1/2;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .welcome{
+        grid-row :2/3;
+    }
+
+  
+
+    .activitiesContent{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .riseNY{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .colorFactory{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .nightLifeContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+
+    }
+
+    .edge{
+        grid-row: 1/2;
+        grid-column: 1/2;
+
+    }
+
+    .lightshow{
+        grid-row: 1/2;
+        grid-column: 2/3;
+
+    }
+
+    /* .holidayBar{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    } */
+
+
+
+
+    /* you can adjust that 600px to whatever looks best to you */
+    /* also try adjusting the body grid so that your content is rearranged, 
+    to do this just mess with the grid-template-rows or add
+    some columns! */
+    nav {
+        padding: 2%;
+    }
+
+
+}
+
+
+
+
